@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitacion</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allison&family=Oooh+Baby&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <section class="slide slide1">
+    <div class="fondo">
+    <img src="Imagenes/globosizq.jpg" alt="">
+    <img src="Imagenes/globosder.jpg" alt="">
+    </div>
+    <div class="slide1__overlay">
+    <div class="contenido1">
+      <img src="Imagenes/marco.webp">
+      <h1>ACOMPAÑAME A FESTEJAR MI 50 ANIVERSARIO</h1>
+      <form>
+        <input type="button" value="SABER MÁS" onclick="location.href='#seccion2'"> 
+      </form>
+    </div>
+    </div>
+  </section>
+
+  
+
+  <section class="slide slide2 " id="seccion2">
+    <nav class="nav">
+      <h2>CLAUDIA LIZBETH</h2>
+    </nav>
+    <div class="contenido">
+      <div class="texto1"> FALTAN</div>
+      <p class="contadorsignoficado">días horas minutos segundos</p>
+      <p class="contador">XX : XX : XX : XX</p>
+      <p class="fecha">EL DIA DOMINGO 31 DE AGOSTO DEL 2025 A LAS 7:30 P.M.</p>
+      <p class="ubicacion"> UBICACION </p>
+      <p class="direccion">Av. Malecón 103, Tetlan, 44820 Guadalajara, Jal.</p>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1753926467253!6m8!1m7!1sQLzwoIdIH0zsu5V35ncsAQ!2m2!1d20.66187942707838!2d-103.2702933717349!3f265.39258!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    <div class="vestimenta">
+      <p class="codigo">CODIGO DE VESTIMENTA</p>
+      <p class="hombres">HOMBRES</p>
+      <img src="Imagenes/traje.webp" alt="traje">
+      <p class="mujeres">MUJERES</p>
+      <img src="Imagenes/vestido.png" alt="vestido">
+    </div>
+    </div>
+    <section class="slide slide3">
+    <div class="contenido3">
+
+      <img src="Imagenes/itinerario.png" alt="itinerario">
+    </div>
+  </section>
+
+
+<section class="slide slide5">
+    <div class="contenido">Celebro 50 años de vida, de aprendizajes, risas, retos y momentos que me han formado. Pero más que celebrar el tiempo, quiero celebrar a las personas que han sido parte de mi historia: mi familia, mis amigos, mis compañeros de camino. Ustedes han dado color y sentido a cada etapa de mi vida, y por eso me encantaría que me acompañen en este día tan especial. </div>
+  </section>
+
+  <section class="slide slide4">
+    <div class="contenido4">
+      <h3 class="trayectoria">~ GALERIA ~</h3>
+      <img src="Imagenes/img.webp" alt="" class="imagen1 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen2 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen3 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen4 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen5 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen6 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen7 imagen">
+      <img src="Imagenes/img.webp" alt="" class="imagen8 imagen">
+    </div>
+  </section>
+
+
+
+  <section class="slide slide6">
+    <fieldset>
+      <legend>Asistencia</legend>
+    <div class="contenido">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrfj7FsLEpPngQxuKPO0NCFWsD2Av9d2KHJm7Z80-TPyUM2Q/viewform?embedded=true" width="640" height="678" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+    </fieldset>
+  </section>
+  </section>
+
+<footer class="footer">
+  <p>© 2025 Claudia Lizbeth · ¡Gracias por acompañarme en este día tan especial!</p>
+</footer>
+
+</body>
+<script>
+  // Al cargar la página, si tiene hash en la URL, lo borramos
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      history.replaceState(null, null, ' ');
+    }
+  });
+</script>
+
+</html>
